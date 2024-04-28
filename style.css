@@ -1,0 +1,53 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  max-width: 100vw;
+  background-color: rgb(108, 141, 141);
+}
+
+#s-main {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#s-main #main-box-information {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#s-main #main-box-information #main-myName {
+  font-size: 40px;
+  font-weight: 400;
+}
+#s-main #main-box-information #main-box-speech {
+  margin: 40px 0;
+  width: 48%;
+}
+#s-main #main-box-information #main-box-speech p {
+  text-align: center;
+}
+#s-main #main-box-information #main-box-mainSkills {
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#s-main #main-box-information #main-box-mainSkills .main-skill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+#s-main #main-box-information #main-box-mainSkills .main-skill img {
+  width: 65px;
+  height: 65px;
+}/*# sourceMappingURL=style.css.map */

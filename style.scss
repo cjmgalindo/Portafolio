@@ -1,0 +1,82 @@
+*{
+    font-family: "Montserrat", sans-serif;;
+    padding: 0;
+    margin: 0;
+    // border: 0.3px solid black;
+}
+
+section{
+    height: 100vh;
+    max-width: 100vw;
+    background-color: rgb(108, 141, 141);
+}
+
+
+// principales estilos de la primera sección
+
+#s-main{
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    #main-box-information{
+        // background-color: bisque;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        #main-myName{
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        #main-box-speech{
+            margin: 40px 0;
+            // background-color: red;
+            width: 48%;
+
+            p{
+                text-align: center;
+            }
+        
+    
+        }
+
+        #main-box-mainSkills{
+            margin-top: 20px;
+            width: 50%;
+            // background-color: rgb(131, 131, 158);
+            display: flex;
+            justify-content: space-evenly;
+
+            .main-skill{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+
+
+                img{
+                    width: 65px;
+                    height: 65px;
+                }
+            }
+            
+        }
+    }
+
+    
+}
+
+
+
+// principales estilos de la segunda seccion
+
+#s-aboutMe{
+
+}

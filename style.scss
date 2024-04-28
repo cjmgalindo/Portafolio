@@ -2,7 +2,9 @@
     font-family: "Montserrat", sans-serif;;
     padding: 0;
     margin: 0;
-    // border: 0.3px solid black;
+    // border: 0.1px solid black;
+    user-select: none;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -11,17 +13,41 @@ section{
     background-color: rgb(108, 141, 141);
 }
 
+a{
+   outline: none;
+   text-decoration: none;
+}
 
-// principales estilos de la primera sección
-
-#s-main{
-    background-color: white; 
+header{
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+
+    nav{
+        .nav-link{
+            font-size: 13px;
+            margin: 0 15px;
+            color: black;
+        }
+    }
+}
+// principales estilos de la primera sección
+
+#s-main{
+    
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: none;
 
     #main-box-information{
+        
         // background-color: bisque;
         text-align: center;
         display: flex;
@@ -77,6 +103,6 @@ section{
 
 // principales estilos de la segunda seccion
 
-#s-aboutMe{
+// #s-aboutMe{
 
-}
+// }
